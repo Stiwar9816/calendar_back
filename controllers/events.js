@@ -1,4 +1,4 @@
-const Event = require("../models")
+const { Event } = require("../models")
 
 const getEvents = async (req, res) => {
     const events = await Event.find().populate('user', 'name')

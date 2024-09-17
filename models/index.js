@@ -1,7 +1,7 @@
-const EventModel = require("./EventModel");
-const UserModel = require("./UserModel");
+const Event = require("./EventModel");
+const User = require("./UserModel");
 
 module.exports = {
-    EventModel,
-    UserModel
+    Event,
+    User
 }
